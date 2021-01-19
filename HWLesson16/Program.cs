@@ -31,8 +31,7 @@ namespace HWLesson16
         {
             for (int i = 0; i < animals.Length; i++)
             {
-                
-                Console.WriteLine(animals[i].MakeSound());
+                animals[i].MakeSound();
             }
         }
 
